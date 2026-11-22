@@ -1,5 +1,5 @@
 export const profile = {
-  name: 'Ajay Kumar Rautiya',
+  name: 'Ajay Rautiya',
   role: 'Data Analyst',
   location: 'Katni, M.P',
   email: 'ajayrautiya@gmail.com',

@@ -11,7 +11,7 @@ import { profile } from '@/lib/profile'
 
 export default function Page() {
   return (
-    <div className="min-h-screen bg-neutral-100 text-neutral-900">
+    <div className="min-h-screen bg-blue-100 text-blue-900">
       <main className="mx-auto max-w-4xl px-6">
         <Hero />
         <WhyItMatters />
@@ -21,7 +21,7 @@ export default function Page() {
         <Education />
         <Contact />
       </main>
-      <footer className="mx-auto max-w-4xl border-t border-neutral-300 px-6 py-8 text-sm text-neutral-500">
+      <footer className="mx-auto max-w-4xl border-t border-blue-300 px-6 py-8 text-sm text-blue-700">
         Made by {profile.name}
       </footer>
     </div>

@@ -3,7 +3,7 @@ import type { Metadata, Viewport } from 'next'
 import './globals.css'
 
 export const metadata: Metadata = {
-  title: 'Ajay Kumar Rautiya — Data Analyst',
+  title: 'Ajay Rautiya — Data Analyst',
   description:
     'Data Analyst with over 9 years of experience across engineering, technical recruitment, and AI analysis.',
   generator: 'v0.app',
@@ -28,7 +28,7 @@ export const metadata: Metadata = {
 
 export const viewport: Viewport = {
   colorScheme: 'light',
-  themeColor: '#f5f5f5',
+  themeColor: '#dbeafe',
 }
 
 export default function RootLayout({
