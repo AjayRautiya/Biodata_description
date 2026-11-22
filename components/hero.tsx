@@ -9,6 +9,7 @@ export function Hero() {
       <h1 className="text-balance text-5xl font-semibold tracking-tight text-blue-900 md:text-7xl">
         {profile.name}
       </h1>
+      <p className="-mt-4 text-base font-medium text-blue-700">Now on GitHub</p>
       <div className="flex max-w-2xl flex-col gap-3 text-lg leading-relaxed text-blue-800">
         {profile.summary.map((line) => (
           <p key={line} className="text-pretty">
